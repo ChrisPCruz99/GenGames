@@ -25,7 +25,7 @@ import org.springframework.web.server.ResponseStatusException;
 @RestController
 @RequestMapping ("/categoria")
 @CrossOrigin ("*")
-public class CategoriaControler {
+public class CategoriaController {
 		
 	@Autowired
 	private CategoriaRepository repository;
